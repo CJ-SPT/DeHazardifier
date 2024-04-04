@@ -28,6 +28,7 @@ namespace TYR_DeHazardifier
         public static ConfigEntry<bool> sniperBorderZonesEnabledConfig;
         public static ConfigEntry<bool> fireDamageEnabledConfig;
         public static bool deHazardifiered = false;
+        
         private void Awake()
         {
             deHazardifierEnabledConfig = Config.Bind("A - De-Hazardifier Enabler", "A - De-Hazardifier Enabled", true, "Enables the De-Hazardifier.");
