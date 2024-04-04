@@ -16,34 +16,34 @@
 
   <ItemGroup>
     <Reference Include="0Harmony">
-      <HintPath>dependencies\0Harmony.dll</HintPath>
+      <HintPath>$(SolutionDir)dependencies\0Harmony.dll</HintPath>
     </Reference>
     <Reference Include="Aki.Reflection">
-      <HintPath>..\..\..\Shared\Aki.Reflection.dll</HintPath>
+      <HintPath>$(SolutionDir)dependencies\Aki.Reflection.dll</HintPath>
     </Reference>
     <Reference Include="Assembly-CSharp">
-      <HintPath>..\..\..\Shared\Assembly-CSharp.dll</HintPath>
+      <HintPath>$(SolutionDir)dependencies\Assembly-CSharp.dll</HintPath>
     </Reference>
     <Reference Include="BepInEx">
-      <HintPath>..\..\..\Shared\BepInEx.dll</HintPath>
+      <HintPath>$(SolutionDir)dependencies\BepInEx.dll</HintPath>
     </Reference>
     <Reference Include="BepInEx.Harmony">
-      <HintPath>dependencies\BepInEx.Harmony.dll</HintPath>
+      <HintPath>$(SolutionDir)dependencies\BepInEx.Harmony.dll</HintPath>
     </Reference>
     <Reference Include="Comfort">
-      <HintPath>..\..\..\Shared\Comfort.dll</HintPath>
+      <HintPath>$(SolutionDir)dependencies\Comfort.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
-      <HintPath>..\..\..\Shared\Newtonsoft.Json.dll</HintPath>
+      <HintPath>$(SolutionDir)dependencies\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine">
-      <HintPath>..\..\..\Shared\UnityEngine.dll</HintPath>
+      <HintPath>$(SolutionDir)dependencies\UnityEngine.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.CoreModule">
-      <HintPath>..\..\..\Shared\UnityEngine.CoreModule.dll</HintPath>
+      <HintPath>$(SolutionDir)dependencies\UnityEngine.CoreModule.dll</HintPath>
     </Reference>
 	  <Reference Include="UnityEngine.PhysicsModule">
-		  <HintPath>..\..\..\Shared\UnityEngine.PhysicsModule.dll</HintPath>
+		  <HintPath>$(SolutionDir)dependencies\UnityEngine.PhysicsModule.dll</HintPath>
 	  </Reference>
   </ItemGroup>
 
