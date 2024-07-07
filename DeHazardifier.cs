@@ -12,7 +12,7 @@ using UnityEngine.SceneManagement;
 
 namespace TYR_DeHazardifier
 {
-    [BepInPlugin("com.TYR.DeHazardifier", "TYR_DeHazardifier", "1.0.3")]
+    [BepInPlugin("com.TYR.DeHazardifier", "TYR_DeHazardifier", "1.0.4")]
     public class DeClutter : BaseUnityPlugin
     {
         private static GameWorld gameWorld;

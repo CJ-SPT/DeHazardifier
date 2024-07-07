@@ -1,7 +1,8 @@
-﻿using Aki.Reflection.Patching;
+﻿
 using EFT.Interactive;
 using HarmonyLib;
 using System.Reflection;
+using SPT.Reflection.Patching;
 using UnityEngine;
 
 namespace HazardPatches
