@@ -13,11 +13,11 @@ using UnityEngine.SceneManagement;
 
 namespace TYR_DeHazardifier
 {
-    [BepInPlugin("com.TYR.DeHazardifier", "TYR_DeHazardifier", "1.0.5")]
-    [BepInDependency("com.SPT.custom", "3.10.0")]
+    [BepInPlugin("com.TYR.DeHazardifier", "TYR_DeHazardifier", "1.0.6")]
+    [BepInDependency("com.SPT.custom", "3.11.0")]
     public class DeClutter : BaseUnityPlugin
     {
-        public const int TarkovVersion = 33420;
+        public const int TarkovVersion = 35392;
         
         private static GameWorld gameWorld;
         private static bool MapLoaded() => Singleton<GameWorld>.Instantiated;
